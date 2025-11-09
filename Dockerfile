@@ -14,4 +14,4 @@ RUN npm install
 
 COPY server.js .
 
-CMD ["sh", "-c", "node server.js & npm start"]
+CMD sh -c "node server.js & node bot.js"
